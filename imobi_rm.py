@@ -158,7 +158,7 @@ def vagas_extra():
 def escolher_parcelas():
     while True:
         try:
-            parcelas = int(input("Parcelar contrato em quantas vezes? (1 a 5): "))
+            parcelas = int(input("Contrato: R$ 2.000\nParcelar contrato em quantas vezes? (1 a 5): "))
             if 1 <= parcelas <= 5:
                 return parcelas
             else:
