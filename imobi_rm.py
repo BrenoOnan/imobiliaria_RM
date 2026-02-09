@@ -167,7 +167,7 @@ def escolher_parcelas():
             print("❌ Entrada inválida.")
 
 
-# ===== EXECUÇÃO =====
+# ====== EXECUÇÃO ======
 while True:
     try:
         tipo = menu_imovel()
